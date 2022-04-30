@@ -1,4 +1,4 @@
-package start.task2;
+package start.lesson2;
 
 public class PrimitiveTypes {
     public static void main(String[] args) {
@@ -11,6 +11,7 @@ public class PrimitiveTypes {
         System.out.println("Об'єм паралелепіпеда = " + volume);
         double length = 4*(a+b+c);
         System.out.println("Периметр паралелепіпеда = " + length);
+
 
 
         //Змінні з широтою і довготою гори, виведення в консоль

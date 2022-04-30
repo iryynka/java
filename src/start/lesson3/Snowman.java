@@ -23,7 +23,7 @@ public class Snowman {
         System.out.printf("The largest ball has a volume = %.2f", vol1);
         System.out.printf(" m^3.\nThe second = %.2f", vol2);
         System.out.printf(" m^3.\nThe third = %.2f", vol3);
-        System.out.println(" m^3.\n");
+        System.out.print(" m^3.\n");
 
         //Calculating the weight
         double vol = vol1 + vol2 + vol3;
