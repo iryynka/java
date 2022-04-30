@@ -1,4 +1,4 @@
-package lesson2;
+package start.task2;
 
 public class PrimitiveTypes {
     public static void main(String[] args) {
