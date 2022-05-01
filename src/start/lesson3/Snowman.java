@@ -13,8 +13,7 @@ public class Snowman {
         double den = .7;
         System.out.println("The density of the snow is " + den + " kg/m^3.");
 
-        //Round the pi number to integer that we could make calculation without decimals numbers
-        double pi = Math.ceil(Math.PI);
+        double pi = Math.PI;
 
         //Snowballs' volume
         double vol1 = pi * (4. / 3.) * Math.pow(r1, 3);
@@ -27,7 +26,7 @@ public class Snowman {
 
         //Calculating the weight
         double vol = vol1 + vol2 + vol3;
-        double weight = Math.ceil(den * vol);
-        System.out.println("The weight is near " + weight + " kg.");
+        double weight = den * vol;
+        System.out.printf("The weight is near %.2f kg.", weight);
     }
 }
