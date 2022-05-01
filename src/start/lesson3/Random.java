@@ -15,8 +15,8 @@ public class Random {
         System.out.print("Enter the integer max value: ");
         int max = scanner.nextInt();
 
-        //Generates random number that includes min and max value
-        int random = min + (int) (Math.random() * (max - min + 1));
+        //Generates random number between min amd max values
+        int random = min + (int) (Math.random() * (max - min));
         System.out.println("The random value is " + random + " between range: " + min + " and " + max + ".");
 
     }
