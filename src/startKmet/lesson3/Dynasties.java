@@ -1,4 +1,4 @@
-package start.lesson3;
+package startKmet.lesson3;
 
 public class Dynasties {
     public static void main(String[] args) {
@@ -15,7 +15,7 @@ public class Dynasties {
         int warriorMing = 9;
         int archerMing = 35;
         int horsemanMing = 12;
-        System.out.printf("Ming army (per person):  - warrior %d XPs\n\t\t\t\t\t\t - arWithcher %d XPs\n\t\t\t\t\t\t - horseman %d XPs", warriorMing, archerMing, horsemanMing);
+        System.out.printf("Ming army (per person):  - warrior %d XPs\n\t\t\t\t\t\t - archer %d XPs\n\t\t\t\t\t\t - horseman %d XPs", warriorMing, archerMing, horsemanMing);
         System.out.println();
 
         //The number of each type of soldiers

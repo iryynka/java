@@ -1,4 +1,4 @@
-package start.lesson3;
+package startKmet.lesson3;
 
 public class Snowman {
     public static void main(String[] args) {

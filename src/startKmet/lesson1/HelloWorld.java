@@ -1,4 +1,4 @@
-package start.lesson1;
+package startKmet.lesson1;
 
 public class HelloWorld {
     public static void main(String[] args) {

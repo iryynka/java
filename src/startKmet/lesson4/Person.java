@@ -1,4 +1,4 @@
-package start.lesson4;
+package startKmet.lesson4;
 
 public class Person {
 

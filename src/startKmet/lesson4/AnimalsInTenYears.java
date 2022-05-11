@@ -1,4 +1,4 @@
-package start.lesson4;
+package startKmet.lesson4;
 
 public class AnimalsInTenYears {
     public static void main(String[] args) {
@@ -41,10 +41,10 @@ public class AnimalsInTenYears {
      *
      * @param bears     the number of bears this year
      * @param tigers    the number of tigers this year
-     * @param parrots   the number of parrots this year
-     * @param elephants the number of elephants this year
-     * @param raccoons  the number of raccoons this year
-     * @return the sum of animals this year
+     * @param parrots   the number of parrots in y year
+     * @param elephants the number of elephants in y year
+     * @param raccoons  the number of raccoons in y year
+     * @return the sum of animals in n years
      */
     public static int countAnimalsThisYear(int bears, int tigers, int parrots, int elephants, int raccoons) {
         return bears + tigers + parrots + elephants + raccoons;

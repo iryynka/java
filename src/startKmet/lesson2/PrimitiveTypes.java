@@ -1,4 +1,4 @@
-package start.lesson2;
+package startKmet.lesson2;
 
 public class PrimitiveTypes {
     public static void main(String[] args) {
